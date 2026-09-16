@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
-    
-        <title>student registration and feedback</title>
+     <title>student registration and feedback</title>
+     <head>
+     <style>
+     body{
+        background-color: rgb(112, 116, 114);
+        text-align: center;
+     }
+     .studentform {
+    padding: 20px;                     
+    border: 4px solid rgb(12, 0, 14);  
+    border-radius: 10px;         
+    text-align: center;                
+  }
+  
+     </style>
+     </head>
     <body>
-        <div class = "studentform" style = "background-color: rgb(112, 116, 114); padding: 20px; border-radius: 10px;">
+
+        <div class = "studentform" style = "background-color: rgb(54, 55, 55); padding: 20px; border-radius: 10px;">
             <center>
             <h1>Student Information System</h1>
             <p>please fill the form below</p>
@@ -26,15 +41,23 @@
               </select><br><br>
               <label for = "DOB">Enter DOB:</label><br>
               <input type = "date" id = "DOB"  placeholder = "enter your date of birth" required><br><br>
-              <label for = "accomodate">Enter Accommodation Details:</label><br><br>
+              <label for = "accomodate">Enter Accommodation Details:</label><br>
               <input type = "text" id = "accomodate"  placeholder = "enter your accommodation details" required><br><br>
               <input type = "checkbox">
               <label for = "accomodate" >HOSTELLER <br>
                 <input type = "checkbox">
               <label for = "day_scholar">DAY SCHOLAR <br>
-
+               <style> form {
+    padding: 10px;                     
+    border: 4px solid rgb(1, 0, 2);  
+    border-radius: 5px;         
+    text-align: left;                  
+               }</style>
+</div>
             <div class = "section 2">
-
+           <h3>2. Address</h3>
+           <label for = "address">Enter Address:</label><br>
+           <input type = "text" id ="address"  placeholder = "enter your address" required><br><br>
             </div>
             <div class = "section 3">
 
